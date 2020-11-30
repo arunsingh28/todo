@@ -67,13 +67,10 @@ body{
 
 
 /* list item  */
-.wrapper{
-  display:flex;
-  justify-content: space-between;
-}
 .list-item{
   margin: 20px 5%;
   padding: 10px;
+  margin-right: 37px;
   background: rgba(252, 252, 252, 1);
   border-radius: 4px;
   overflow-wrap: break-word;
@@ -83,6 +80,7 @@ body{
   padding: 7px;
   margin-top: -6px;
   background: rgba(0,0,0,0.2);
+  float: right;
   cursor: pointer;
 }
 .list-item .fa-trash:hover{
